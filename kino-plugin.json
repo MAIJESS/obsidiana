@@ -1,0 +1,184 @@
+{
+  "id": "theme-kino-tv-obsidiana",
+  "name": "Kino TV · Obsidiana",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Kino TV tallado en obsidiana: negro volcánico, bordes afilados con destellos violeta y un logo de esquirla facetada, en el celular y en el TV.",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "obsidiana",
+      "name": {
+        "es": "Kino TV · Obsidiana",
+        "en": "Kino TV · Obsidian"
+      },
+      "experience": "full",
+      "pluginColors": "override",
+      "colors": {
+        "accent": "#A99BFF",
+        "onAccent": "#0B0814",
+        "background": "#000000",
+        "surface": "#0E0D14",
+        "surfaceHigh": "#171522",
+        "railPanel": "#050409",
+        "textPrimary": "#F2F0F8",
+        "textSecondary": "#A9A5BC",
+        "focus": "#E6E1FF",
+        "onFocus": "#0B0814",
+        "outline": "#2A2736",
+        "border": "#4A4562",
+        "placeholderTop": "#17151F",
+        "placeholderBottom": "#050409",
+        "success": "#4FD6A0",
+        "warning": "#F2B84B",
+        "error": "#FF6B6B",
+        "favorite": "#FF8AB5",
+        "scrim": "#000000"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#000000",
+          "#07060B",
+          "#100C1C",
+          "#07060B",
+          "#000000"
+        ],
+        "angle": 160
+      },
+      "shape": {
+        "cardRadius": 4,
+        "channelRadius": 4,
+        "buttonRadius": 6,
+        "chipRadius": 4,
+        "dialogRadius": 6,
+        "inputRadius": 4,
+        "cardBorder": 1,
+        "panelBorder": 1,
+        "dialogBorder": 2,
+        "menuBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.06,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.7,
+        "dialogShadow": 0.9,
+        "heroScrim": 0.9
+      },
+      "motion": {
+        "focusZoom": 1.06,
+        "crossfadeMs": 320,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.0,
+        "labelScale": 1.0,
+        "buttonShape": "rounded"
+      },
+      "tv": {
+        "shape": {
+          "cardRadius": 4,
+          "channelRadius": 4,
+          "dialogRadius": 6
+        },
+        "motion": {
+          "focusZoom": 1.05
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#A99BFF",
+            "#FF7A3D",
+            "#4FD1C5",
+            "#D5DBE6"
+          ]
+        },
+        "colors.border": {
+          "swatches": [
+            "#4A4562",
+            "#A99BFF",
+            "#D5DBE6"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 16
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.2
+        },
+        "background": true
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            111,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 0 L27 5 L30 18 L21 30 L7 27 L0 11Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 3.6 L24.6 7.4 L26.6 17.6 L19.6 26.4 L8.8 24.2 L3.6 11.6Z",
+              "fill": "onAccent"
+            },
+            {
+              "d": "M15 3.6 L21.4 6.1 L12.6 9.4Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M12.2 10.2 L21.2 15.2 L12.2 20.2Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M36 8 L39 8 L39 22 L36 22Z M39 12.8 L43 8 L47 8 L39 17.8Z M43.4 13.8 L47 22 L42.8 22 L39.5 15.8Z M49.2 8 L52.2 8 L52.2 22 L49.2 22Z M54.4 8 L57.4 8 L57.4 22 L54.4 22Z M62.4 8 L65.4 8 L65.4 22 L62.4 22Z M57.4 8 L60.8 8 L62.4 22 L59 22Z M70.2 8 L76 8 L78.6 10.6 L78.6 19.4 L76 22 L70.2 22 L67.6 19.4 L67.6 10.6Z M70.6 12 L70.6 18 L71.6 19 L74.6 19 L75.6 18 L75.6 12 L74.6 11 L71.6 11Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M84.1 8 L95.1 8 L95.1 11 L84.1 11Z M88.1 8 L91.1 8 L91.1 22 L88.1 22Z M96.5 8 L100.3 8 L103.9 22 L100.1 22Z M103.7 8 L107.5 8 L103.9 22 L100.1 22Z",
+              "fill": "accent"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 0 L27 5 L30 18 L21 30 L7 27 L0 11Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M15 3.6 L24.6 7.4 L26.6 17.6 L19.6 26.4 L8.8 24.2 L3.6 11.6Z",
+              "fill": "onAccent"
+            },
+            {
+              "d": "M15 3.6 L21.4 6.1 L12.6 9.4Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M12.2 10.2 L21.2 15.2 L12.2 20.2Z",
+              "fill": "accent"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
