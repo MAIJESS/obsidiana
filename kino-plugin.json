@@ -3,6 +3,7 @@
   "name": "Kino TV · Obsidiana",
   "version": "1.0.0",
   "apiVersion": 18,
+  "icon": "icon.png",
   "entry": "plugin.js",
   "description": "Kino TV tallado en obsidiana: negro volcánico, bordes afilados con destellos violeta y un logo de esquirla facetada, en el celular y en el TV.",
   "hosts": [],
